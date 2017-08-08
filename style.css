@@ -5,7 +5,7 @@
 .container {
   width: auto;
   background-color: #800080;
-  margin: 2em 2em 1em 2em;
+  margin: 2em;
   border-radius: 5%;
 }
 
@@ -15,38 +15,40 @@ header {
   /*border: 3px solid black;*/
 }
 
-#castle1 {
-  margin-top: 0;
-  text-align: left;
-  padding-left: 1px;
-  overflow: auto;
-}
-
 h1 {
   color: #ff0;
   text-align: center;
   padding-top: 15px;
   font-family: "Luckiest Guy";
-  font-size: 7em;
+  font-size: 4em;
   font-style: normal;
   font-variant: normal;
   font-weight: 500;
 }
 
-#castle2 {
-  margin-top: 0;
-  text-align: right;
-  padding-right: 1px;
-  overflow: auto;
-}
-
 #sub-header {
   text-align: center;
   font-family: "Permanent Marker", cursive;
-  font-size: 3em;
+  font-size: 2em;
   color: #e6e600;
   /*border: 3px solid black;*/
   line-height: 1;
+}
+
+#castle1 {
+  margin-top: 0;
+  text-align: left;
+  padding-left: 3px;
+  padding-top: 4em;
+  overflow: auto;
+}
+
+#castle2 {
+  margin-top: 0;
+  text-align: right;
+  padding-right: 3px;
+  padding-top: 4em;
+  overflow: auto;
 }
 
 #castles {
@@ -63,7 +65,7 @@ h1 {
 .questionContainer {
   min-height: 500px;
   min-width: 300px;
-  margin: 1em 7% 0 7%;
+  margin: 170px 7% 0 7%;
   padding: 2em 0 0 1em;
   border: 3px solid #000; 
   background-color: #fff; 
