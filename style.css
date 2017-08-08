@@ -5,7 +5,7 @@
 .container {
   width: auto;
   background-color: #800080;
-  margin: 2em;
+  margin: 1em 0 1em 0;
   border-radius: 5%;
 }
 
