@@ -14,6 +14,5 @@ c) move on.
 Ultimately, I would like this to be a game, in which students navigate through a labyrinth within a castle, battling dragons and other beasts by solving Calculus problems, and gaining points in the process.
 In the meantime, I have my work cut out for me!
 
-This is an open source project and any suggestions and help would be greatly appreciated!
 Thank you to Quincy Larson and freeCodeCamp!
 
