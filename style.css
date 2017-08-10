@@ -1,3 +1,7 @@
+body {
+  background-color: #606;
+}
+
 .container-fluid {
   background-color: #606;
 }
@@ -20,7 +24,7 @@ h1 {
   text-align: center;
   padding-top: 15px;
   font-family: "Luckiest Guy";
-  font-size: 4em;
+  font-size: 6em;
   font-style: normal;
   font-variant: normal;
   font-weight: 500;
@@ -29,7 +33,7 @@ h1 {
 #sub-header {
   text-align: center;
   font-family: "Permanent Marker", cursive;
-  font-size: 2em;
+  font-size: 3em;
   color: #e6e600;
   /*border: 3px solid black;*/
   line-height: 1;
@@ -39,7 +43,7 @@ h1 {
   margin-top: 0;
   text-align: left;
   padding-left: 3px;
-  padding-top: 4em;
+  padding-top: 8em;
   overflow: auto;
 }
 
@@ -47,7 +51,7 @@ h1 {
   margin-top: 0;
   text-align: right;
   padding-right: 3px;
-  padding-top: 4em;
+  padding-top: 8em;
   overflow: auto;
 }
 
@@ -60,6 +64,32 @@ h1 {
   /*position: relative;*/
   padding-top: 10px;
   text-align: center;
+}
+
+.info {
+  text-align: center;
+  margin-top: 2em;
+  font-family: "Merriweather", cursive;
+  font-size: 2em;
+  color: #e6e600;
+  /*border: 3px solid black;*/
+  line-height: 1.5;
+}
+
+.choose {
+  text-align: center;
+  margin-top: 2em;
+  font-family: "Merriweather";
+  font-size: 2em;
+  color: #e6e600;
+  /*border: 3px solid black;*/
+  line-height: 1;
+}
+
+.topics {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .questionContainer {
@@ -92,8 +122,8 @@ h1 {
   text-align: center;
   font-family: Times New Roman;
   font-weight: bold;
-  /*margin-top: 2em;*/
-  padding-top: 2em;
+  margin-top: 2em;
+  /*padding-top: 2em;*/
   padding-bottom: 0;
   /*border: 3px solid black;*/
 }
