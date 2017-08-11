@@ -24,7 +24,7 @@ function getQuestion() {
   questions[14] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_275/v1502302629/A015_wsc54z.png' alt='A015'>"; 
   questions[15] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_275/v1502302629/A016_azjaak.png' alt='A016'>"; 
   questions[16] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_275/v1502302629/A017_gwk5mx.png' alt='A017'>"; 
-  questions[17] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_275/v1502302630/A018_apavhk.png' alt='A018'>"; 
+  questions[17] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_275/v1502410367/A018_voy8up.png' alt='A018'>"; 
   questions[18] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_275/v1502302629/A019_uwtsrr.png' alt='A019'>"; 
   questions[19] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_300/v1502302630/A020_yia49v.png' alt='A020'>"; 
   questions[20] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_300/v1502302630/A021_icicl0.png' alt='A021'>"; 
