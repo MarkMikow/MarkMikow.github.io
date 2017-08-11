@@ -118,6 +118,10 @@ h1 {
   text-align: center;
 }
 
+.info, a {
+  color: #ff0;
+}
+
 #footer {
   text-align: center;
   font-family: Times New Roman;
@@ -126,4 +130,9 @@ h1 {
   /*padding-top: 2em;*/
   padding-bottom: 0;
   /*border: 3px solid black;*/
+}
+
+/* Below is the "footer" for all topics pages. */
+.copyright {
+  text-align: center;
 }
