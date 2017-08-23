@@ -71,7 +71,11 @@ function getQuestion() {
   if (randomQuestion == questions[0]) {
     document.getElementById("check-answer").onclick = function fun() {              
         if(document.getElementById("b").checked) {
-          alert("Yay! \nYou conquered that question!");
+                  swal(
+          'Yay!',
+          'You conquered that question!',
+          'success'
+        )
           } else {
           alert("Not quite! \nGive it another try!");
         }
@@ -81,7 +85,11 @@ function getQuestion() {
   if (randomQuestion == questions[1]) {
     document.getElementById("check-answer").onclick = function fun() {              
         if(document.getElementById("a").checked) {
-          alert("Yay! \nYou conquered that question!");
+                  swal(
+          'Good job!',
+          'You clicked the button!',
+          'success'
+        )
           } else {
           alert("Not quite! \nGive it another try!");
         }
@@ -91,7 +99,11 @@ function getQuestion() {
   if (randomQuestion == questions[2]) {
     document.getElementById("check-answer").onclick = function fun() {              
         if(document.getElementById("c").checked) {
-          alert("Yay! \nYou conquered that question!");
+                  swal(
+          'Rock the Kasbah!',
+          'You clicked the button!',
+          'success'
+        )
           } else {
           alert("Not quite! \nGive it another try!");
         }
@@ -101,7 +113,11 @@ function getQuestion() {
   if (randomQuestion == questions[3]) {
     document.getElementById("check-answer").onclick = function fun() {              
         if(document.getElementById("c").checked) {
-          alert("Yay! \nYou conquered that question!");
+                  swal(
+          'Out of Sight!',
+          'You conquered that question!',
+          'success'
+        )
           } else {
           alert("Not quite! \nGive it another try!");
         }
@@ -111,7 +127,11 @@ function getQuestion() {
     if (randomQuestion == questions[4]) {
     document.getElementById("check-answer").onclick = function fun() {              
         if(document.getElementById("b").checked) {
-          alert("Yay! \nYou conquered that question!");
+                  swal(
+          'Raise the Roof!',
+          'You conquered that question!',
+          'success'
+        )
           } else {
           alert("Not quite! \nGive it another try!");
         }
@@ -121,7 +141,11 @@ function getQuestion() {
   if (randomQuestion == questions[5]) {
     document.getElementById("check-answer").onclick = function fun() {              
         if(document.getElementById("b").checked) {
-          alert("Yay! \nYou conquered that question!");
+                  swal(
+          'Do a Little Dance!',
+          'You conquered that question!',
+          'success'
+        )
           } else {
           alert("Not quite! \nGive it another try!");
         }
@@ -131,7 +155,11 @@ function getQuestion() {
   if (randomQuestion == questions[6]) {
     document.getElementById("check-answer").onclick = function fun() {              
         if(document.getElementById("d").checked) {
-          alert("Yay! \nYou conquered that question!");
+                  swal(
+          'Well Done!',
+          'You conquered that question!',
+          'success'
+        )
           } else {
           alert("Not quite! \nGive it another try!");
         }
@@ -141,7 +169,11 @@ function getQuestion() {
   if (randomQuestion == questions[7]) {
     document.getElementById("check-answer").onclick = function fun() {              
         if(document.getElementById("a").checked) {
-          alert("Yay! \nYou conquered that question!");
+                  swal(
+          'Way to Go!',
+          'You conquered that question!',
+          'success'
+        )
           } else {
           alert("Not quite! \nGive it another try!");
         }
@@ -151,7 +183,11 @@ function getQuestion() {
   if (randomQuestion == questions[8]) {
     document.getElementById("check-answer").onclick = function fun() {              
         if(document.getElementById("c").checked) {
-          alert("Yay! \nYou conquered that question!");
+                  swal(
+          'Awesome!',
+          'You conquered that question!',
+          'success'
+        )
           } else {
           alert("Not quite! \nGive it another try!");
         }
@@ -161,7 +197,11 @@ function getQuestion() {
   if (randomQuestion == questions[9]) {
     document.getElementById("check-answer").onclick = function fun() {              
         if(document.getElementById("b").checked) {
-          alert("Yay! \nYou conquered that question!");
+                  swal(
+          'Super Duper!',
+          'You conquered that question!',
+          'success'
+        )
           } else {
           alert("Not quite! \nGive it another try!");
         }
@@ -171,7 +211,11 @@ function getQuestion() {
   if (randomQuestion == questions[10]) {
     document.getElementById("check-answer").onclick = function fun() {              
         if(document.getElementById("c").checked) {
-          alert("Yay! \nYou conquered that question!");
+                  swal(
+          'That\'s the Way, uh huh, uh huh!',
+          'We Like It!',
+          'success'
+        )
           } else {
           alert("Not quite! \nGive it another try!");
         }
@@ -181,7 +225,11 @@ function getQuestion() {
   if (randomQuestion == questions[11]) {
     document.getElementById("check-answer").onclick = function fun() {              
         if(document.getElementById("c").checked) {
-          alert("Yay! \nYou conquered that question!");
+                  swal(
+          'Hip, Hip, Hooray!',
+          'You conquered that question!',
+          'success'
+        )
           } else {
           alert("Not quite! \nGive it another try!");
         }
@@ -191,7 +239,11 @@ function getQuestion() {
   if (randomQuestion == questions[12]) {
     document.getElementById("check-answer").onclick = function fun() {              
         if(document.getElementById("c").checked) {
-          alert("Yay! \nYou conquered that question!");
+                  swal(
+          'Give Yourself a Pat on the Back!',
+          'You just conquered that question!',
+          'success'
+        )
           } else {
           alert("Not quite! \nGive it another try!");
         }
@@ -201,7 +253,11 @@ function getQuestion() {
   if (randomQuestion == questions[13]) {
     document.getElementById("check-answer").onclick = function fun() {              
         if(document.getElementById("b").checked) {
-          alert("Yay! \nYou conquered that question!");
+                  swal(
+          'You Got the Skills!',
+          'You conquered that question!',
+          'success'
+        )
           } else {
           alert("Not quite! \nGive it another try!");
         }
@@ -211,7 +267,11 @@ function getQuestion() {
   if (randomQuestion == questions[14]) {
     document.getElementById("check-answer").onclick = function fun() {              
         if(document.getElementById("c").checked) {
-          alert("Yay! \nYou conquered that question!");
+                  swal(
+          'Kudos!',
+          'You conquered that question!',
+          'success'
+        )
           } else {
           alert("Not quite! \nGive it another try!");
         }
@@ -221,7 +281,11 @@ function getQuestion() {
   if (randomQuestion == questions[15]) {
     document.getElementById("check-answer").onclick = function fun() {              
         if(document.getElementById("d").checked) {
-          alert("Yay! \nYou conquered that question!");
+                  swal(
+          'Nice One!',
+          'You conquered that question!',
+          'success'
+        )
           } else {
           alert("Not quite! \nGive it another try!");
         }
@@ -231,7 +295,11 @@ function getQuestion() {
   if (randomQuestion == questions[16]) {
     document.getElementById("check-answer").onclick = function fun() {              
         if(document.getElementById("a").checked) {
-          alert("Yay! \nYou conquered that question!");
+                  swal(
+          'Solid!',
+          'You conquered that question!',
+          'success'
+        )
           } else {
           alert("Not quite! \nGive it another try!");
         }
@@ -241,7 +309,11 @@ function getQuestion() {
   if (randomQuestion == questions[17]) {
     document.getElementById("check-answer").onclick = function fun() {              
         if(document.getElementById("b").checked) {
-          alert("Yay! \nYou conquered that question!");
+                  swal(
+          'Thumbs Up!',
+          'You conquered that question!',
+          'success'
+        )
           } else {
           alert("Not quite! \nGive it another try!");
         }
@@ -251,7 +323,11 @@ function getQuestion() {
   if (randomQuestion == questions[18]) {
     document.getElementById("check-answer").onclick = function fun() {              
         if(document.getElementById("d").checked) {
-          alert("Yay! \nYou conquered that question!");
+                  swal(
+          'Splendiferous!',
+          'You conquered that question!',
+          'success'
+        )
           } else {
           alert("Not quite! \nGive it another try!");
         }
@@ -261,7 +337,11 @@ function getQuestion() {
   if (randomQuestion == questions[19]) {
     document.getElementById("check-answer").onclick = function fun() {              
         if(document.getElementById("b").checked) {
-          alert("Yay! \nYou conquered that question!");
+                  swal(
+          'Bring the Aloe Vera!',
+          'You just scorched that question!',
+          'success'
+        )
           } else {
           alert("Not quite! \nGive it another try!");
         }
@@ -271,7 +351,11 @@ function getQuestion() {
   if (randomQuestion == questions[20]) {
     document.getElementById("check-answer").onclick = function fun() {              
         if(document.getElementById("a").checked) {
-          alert("Yay! \nYou conquered that question!");
+                  swal(
+          'Beee-you-tee-full!',
+          'You just conquered that question!',
+          'success'
+        )
           } else {
           alert("Not quite! \nGive it another try!");
         }
@@ -281,7 +365,11 @@ function getQuestion() {
   if (randomQuestion == questions[21]) {
     document.getElementById("check-answer").onclick = function fun() {              
         if(document.getElementById("b").checked) {
-          alert("Yay! \nYou conquered that question!");
+                  swal(
+          'Top Notch!',
+          'You conquered that question!',
+          'success'
+        )
           } else {
           alert("Not quite! \nGive it another try!");
         }
@@ -291,7 +379,11 @@ function getQuestion() {
   if (randomQuestion == questions[22]) {
     document.getElementById("check-answer").onclick = function fun() {              
         if(document.getElementById("a").checked) {
-          alert("Yay! \nYou conquered that question!");
+                  swal(
+          'First Rate!',
+          'You conquered that question!',
+          'success'
+        )
           } else {
           alert("Not quite! \nGive it another try!");
         }
@@ -301,7 +393,11 @@ function getQuestion() {
   if (randomQuestion == questions[23]) {
     document.getElementById("check-answer").onclick = function fun() {              
         if(document.getElementById("c").checked) {
-          alert("Yay! \nYou conquered that question!");
+                  swal(
+          'Brilliant!',
+          'You conquered that question!',
+          'success'
+        )
           } else {
           alert("Not quite! \nGive it another try!");
         }
@@ -311,7 +407,11 @@ function getQuestion() {
   if (randomQuestion == questions[24]) {
     document.getElementById("check-answer").onclick = function fun() {              
         if(document.getElementById("d").checked) {
-          alert("Yay! \nYou conquered that question!");
+                  swal(
+          'Good job!',
+          'You conquered that question!',
+          'success'
+        )
           } else {
           alert("Not quite! \nGive it another try!");
         }
