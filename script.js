@@ -33,14 +33,294 @@ function getQuestion() {
   questions[23] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_275/v1502302630/A024_tphnql.png' alt='A024'>"; 
   questions[24] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_275/v1502302630/A025_rsvgag.png' alt='A025'>"; 
 
+  var answers = [],
+  index = 0
+
+  answers[0] = "b";  
+  answers[1] = "a";  
+  answers[2] = "c";  
+  answers[3] = "c";  
+ 
+  answers[4] = "b";
+  answers[5] = "b";
+  answers[6] = "d";
+  answers[7] = "a";
+  answers[8] = "c";
+  answers[9] = "b";
+  answers[10] = "c";
+  answers[11] = "c";
+  answers[12] = "c";
+  answers[13] = "b";
+  answers[14] = "c";
+  answers[15] = "d";
+  answers[16] = "a";
+  answers[17] = "b";
+  answers[18] = "d";
+  answers[19] = "b";
+  answers[20] = "a";
+  answers[21] = "b";
+  answers[22] = "a";
+  answers[23] = "c";
+  answers[24] = "d";
+
   randomNumber = Math.floor(Math.random() * (questions.length));
   randomQuestion = questions[randomNumber];
 
   $(".question").html(randomQuestion).width = "400";
-}
+
+  if (randomQuestion == questions[0]) {
+    document.getElementById("check-answer").onclick = function fun() {              
+        if(document.getElementById("b").checked) {
+          alert("Yay! \nYou conquered that question!");
+          } else {
+          alert("Not quite! \nGive it another try!");
+        }
+      }
+    }
+
+  if (randomQuestion == questions[1]) {
+    document.getElementById("check-answer").onclick = function fun() {              
+        if(document.getElementById("a").checked) {
+          alert("Yay! \nYou conquered that question!");
+          } else {
+          alert("Not quite! \nGive it another try!");
+        }
+      }
+    }
+
+  if (randomQuestion == questions[2]) {
+    document.getElementById("check-answer").onclick = function fun() {              
+        if(document.getElementById("c").checked) {
+          alert("Yay! \nYou conquered that question!");
+          } else {
+          alert("Not quite! \nGive it another try!");
+        }
+      }
+    }
+
+  if (randomQuestion == questions[3]) {
+    document.getElementById("check-answer").onclick = function fun() {              
+        if(document.getElementById("c").checked) {
+          alert("Yay! \nYou conquered that question!");
+          } else {
+          alert("Not quite! \nGive it another try!");
+        }
+      }
+    }
+
+    if (randomQuestion == questions[4]) {
+    document.getElementById("check-answer").onclick = function fun() {              
+        if(document.getElementById("b").checked) {
+          alert("Yay! \nYou conquered that question!");
+          } else {
+          alert("Not quite! \nGive it another try!");
+        }
+      }
+    }
+
+  if (randomQuestion == questions[5]) {
+    document.getElementById("check-answer").onclick = function fun() {              
+        if(document.getElementById("b").checked) {
+          alert("Yay! \nYou conquered that question!");
+          } else {
+          alert("Not quite! \nGive it another try!");
+        }
+      }
+    }
+
+  if (randomQuestion == questions[6]) {
+    document.getElementById("check-answer").onclick = function fun() {              
+        if(document.getElementById("d").checked) {
+          alert("Yay! \nYou conquered that question!");
+          } else {
+          alert("Not quite! \nGive it another try!");
+        }
+      }
+    }
+
+  if (randomQuestion == questions[7]) {
+    document.getElementById("check-answer").onclick = function fun() {              
+        if(document.getElementById("a").checked) {
+          alert("Yay! \nYou conquered that question!");
+          } else {
+          alert("Not quite! \nGive it another try!");
+        }
+      }
+    }
+
+  if (randomQuestion == questions[8]) {
+    document.getElementById("check-answer").onclick = function fun() {              
+        if(document.getElementById("c").checked) {
+          alert("Yay! \nYou conquered that question!");
+          } else {
+          alert("Not quite! \nGive it another try!");
+        }
+      }
+    }
+
+  if (randomQuestion == questions[9]) {
+    document.getElementById("check-answer").onclick = function fun() {              
+        if(document.getElementById("b").checked) {
+          alert("Yay! \nYou conquered that question!");
+          } else {
+          alert("Not quite! \nGive it another try!");
+        }
+      }
+    }
+
+  if (randomQuestion == questions[10]) {
+    document.getElementById("check-answer").onclick = function fun() {              
+        if(document.getElementById("c").checked) {
+          alert("Yay! \nYou conquered that question!");
+          } else {
+          alert("Not quite! \nGive it another try!");
+        }
+      }
+    }
+
+  if (randomQuestion == questions[11]) {
+    document.getElementById("check-answer").onclick = function fun() {              
+        if(document.getElementById("c").checked) {
+          alert("Yay! \nYou conquered that question!");
+          } else {
+          alert("Not quite! \nGive it another try!");
+        }
+      }
+    }
+
+  if (randomQuestion == questions[12]) {
+    document.getElementById("check-answer").onclick = function fun() {              
+        if(document.getElementById("c").checked) {
+          alert("Yay! \nYou conquered that question!");
+          } else {
+          alert("Not quite! \nGive it another try!");
+        }
+      }
+    }
+
+  if (randomQuestion == questions[13]) {
+    document.getElementById("check-answer").onclick = function fun() {              
+        if(document.getElementById("b").checked) {
+          alert("Yay! \nYou conquered that question!");
+          } else {
+          alert("Not quite! \nGive it another try!");
+        }
+      }
+    }
+
+  if (randomQuestion == questions[14]) {
+    document.getElementById("check-answer").onclick = function fun() {              
+        if(document.getElementById("c").checked) {
+          alert("Yay! \nYou conquered that question!");
+          } else {
+          alert("Not quite! \nGive it another try!");
+        }
+      }
+    }
+
+  if (randomQuestion == questions[15]) {
+    document.getElementById("check-answer").onclick = function fun() {              
+        if(document.getElementById("d").checked) {
+          alert("Yay! \nYou conquered that question!");
+          } else {
+          alert("Not quite! \nGive it another try!");
+        }
+      }
+    }
+
+  if (randomQuestion == questions[16]) {
+    document.getElementById("check-answer").onclick = function fun() {              
+        if(document.getElementById("a").checked) {
+          alert("Yay! \nYou conquered that question!");
+          } else {
+          alert("Not quite! \nGive it another try!");
+        }
+      }
+    }
+
+  if (randomQuestion == questions[17]) {
+    document.getElementById("check-answer").onclick = function fun() {              
+        if(document.getElementById("b").checked) {
+          alert("Yay! \nYou conquered that question!");
+          } else {
+          alert("Not quite! \nGive it another try!");
+        }
+      }
+    }
+
+  if (randomQuestion == questions[18]) {
+    document.getElementById("check-answer").onclick = function fun() {              
+        if(document.getElementById("d").checked) {
+          alert("Yay! \nYou conquered that question!");
+          } else {
+          alert("Not quite! \nGive it another try!");
+        }
+      }
+    }
+
+  if (randomQuestion == questions[19]) {
+    document.getElementById("check-answer").onclick = function fun() {              
+        if(document.getElementById("b").checked) {
+          alert("Yay! \nYou conquered that question!");
+          } else {
+          alert("Not quite! \nGive it another try!");
+        }
+      }
+    }
+
+  if (randomQuestion == questions[20]) {
+    document.getElementById("check-answer").onclick = function fun() {              
+        if(document.getElementById("a").checked) {
+          alert("Yay! \nYou conquered that question!");
+          } else {
+          alert("Not quite! \nGive it another try!");
+        }
+      }
+    }
+
+  if (randomQuestion == questions[21]) {
+    document.getElementById("check-answer").onclick = function fun() {              
+        if(document.getElementById("b").checked) {
+          alert("Yay! \nYou conquered that question!");
+          } else {
+          alert("Not quite! \nGive it another try!");
+        }
+      }
+    }
+
+  if (randomQuestion == questions[22]) {
+    document.getElementById("check-answer").onclick = function fun() {              
+        if(document.getElementById("a").checked) {
+          alert("Yay! \nYou conquered that question!");
+          } else {
+          alert("Not quite! \nGive it another try!");
+        }
+      }
+    }
+
+  if (randomQuestion == questions[23]) {
+    document.getElementById("check-answer").onclick = function fun() {              
+        if(document.getElementById("c").checked) {
+          alert("Yay! \nYou conquered that question!");
+          } else {
+          alert("Not quite! \nGive it another try!");
+        }
+      }
+    }
+
+  if (randomQuestion == questions[24]) {
+    document.getElementById("check-answer").onclick = function fun() {              
+        if(document.getElementById("d").checked) {
+          alert("Yay! \nYou conquered that question!");
+          } else {
+          alert("Not quite! \nGive it another try!");
+        }
+      }
+    }
+  }
 
   $("#newQuestion").on("click", function() {
-    getQuestion();
-  });
-
+    $("input[name='answer']").prop("checked", false);    
+    getQuestion();   
+  })
 });

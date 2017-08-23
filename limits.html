@@ -11,7 +11,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
   <link href="https://fonts.googleapis.com/css?family=Bangers|Permanent+Marker|Luckiest+Guy" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <script type="text/javascript" src="script.js">
+    }
+  </script>
 </head>
 
 <body>
@@ -31,11 +33,25 @@
           <div class="col-xs-4">
           </div>
           <div class="questionContainer">
-            <span class="question"></span> 
+            <span class="question"></span>          
+          <div class="answer-choices">
+            <form action="" name="quizForm" onsubmit="return submitAnswers()">
+              <ul>
+                <li><input type="radio" name="answer" id="a" value="a">
+                <label for="option1">A</label></li>
+                <li><input type="radio" name="answer" id="b" value="b">
+                <label for="option1">B</label></li>
+                <li><input type="radio" name="answer" id="c" value="c">
+                <label for="option1">C</label></li>
+                <li><input type="radio" name="answer" id="d" value="d">
+                <label for="option1">D</label></li>
+              </ul>
+            </form>
+            </div>           
           </div>
           <div class="row">
             <div class="col-xs-6" id="submit-button">
-              <!--<button type="button" class="btn btn-lg" type="submit" id="submit">Submit</button>-->
+            <button class="btn btn-info" id="check-answer" onclick="rightOrWrong()">Check Answer</button>           
             </div>
             <div class="col-xs-6" id="next-button">
               <button type="button" class="btn btn-info" type="submit" id="newQuestion">Next</button>
