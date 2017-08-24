@@ -25,13 +25,13 @@ function getQuestion() {
   questions[15] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_275/v1502302629/A016_azjaak.png' alt='A016'>"; 
   questions[16] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_275/v1502302629/A017_gwk5mx.png' alt='A017'>"; 
   questions[17] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_275/v1502410367/A018_voy8up.png' alt='A018'>"; 
-  questions[18] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_275/v1502302629/A019_uwtsrr.png' alt='A019'>"; 
-  questions[19] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_300/v1502302630/A020_yia49v.png' alt='A020'>"; 
+  questions[18] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_275/v1503616838/A019_vhurki.png' alt='A019'>"; 
+  questions[19] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_275/v1503616838/A020_dlskwk.png' alt='A020'>"; 
   questions[20] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_300/v1502302630/A021_icicl0.png' alt='A021'>"; 
   questions[21] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_275/v1502408658/A022_kva6zu.png' alt='A022'>"; 
   questions[22] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_275/v1502302630/A023_xcip7f.png' alt='A023'>"; 
   questions[23] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_275/v1502302630/A024_tphnql.png' alt='A024'>"; 
-  questions[24] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_275/v1502302630/A025_rsvgag.png' alt='A025'>"; 
+  questions[24] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_275/v1503616838/A025_vsiohg.png' alt='A025'>"; 
 
   var answers = [],
   index = 0
@@ -61,7 +61,7 @@ function getQuestion() {
   answers[21] = "b";
   answers[22] = "a";
   answers[23] = "c";
-  answers[24] = "d";
+  answers[24] = "c";
 
   randomNumber = Math.floor(Math.random() * (questions.length));
   randomQuestion = questions[randomNumber];
@@ -406,7 +406,7 @@ function getQuestion() {
 
   if (randomQuestion == questions[24]) {
     document.getElementById("check-answer").onclick = function fun() {              
-        if(document.getElementById("d").checked) {
+        if(document.getElementById("c").checked) {
                   swal(
           'Good job!',
           'You conquered that question!',
