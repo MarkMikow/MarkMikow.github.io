@@ -87,7 +87,7 @@ function getQuestion() {
         if(document.getElementById("a").checked) {
                   swal(
           'Good job!',
-          'You clicked the button!',
+          'You clicked the right button!',
           'success'
         )
           } else {
@@ -101,7 +101,7 @@ function getQuestion() {
         if(document.getElementById("c").checked) {
                   swal(
           'Rock the Kasbah!',
-          'You clicked the button!',
+          'You clicked the right button!',
           'success'
         )
           } else {
@@ -185,7 +185,7 @@ function getQuestion() {
         if(document.getElementById("c").checked) {
                   swal(
           'Awesome!',
-          'You conquered that question!',
+          'You just conquered the heck out of that question!',
           'success'
         )
           } else {
@@ -198,7 +198,7 @@ function getQuestion() {
     document.getElementById("check-answer").onclick = function fun() {              
         if(document.getElementById("b").checked) {
                   swal(
-          'Super Duper!',
+          'Super Duper, Wuper!',
           'You conquered that question!',
           'success'
         )
@@ -227,7 +227,7 @@ function getQuestion() {
         if(document.getElementById("c").checked) {
                   swal(
           'Hip, Hip, Hooray!',
-          'You conquered that question!',
+          'You conquered that question today!',
           'success'
         )
           } else {
@@ -241,7 +241,7 @@ function getQuestion() {
         if(document.getElementById("c").checked) {
                   swal(
           'Give Yourself a Pat on the Back!',
-          'You just conquered that question!',
+          '(But don\'t pull a muscle!)!',
           'success'
         )
           } else {
@@ -268,8 +268,8 @@ function getQuestion() {
     document.getElementById("check-answer").onclick = function fun() {              
         if(document.getElementById("c").checked) {
                   swal(
-          'Kudos!',
-          'You conquered that question!',
+          'Ouch!',
+          'You\'re burnin\' it up!',
           'success'
         )
           } else {
@@ -395,7 +395,7 @@ function getQuestion() {
         if(document.getElementById("c").checked) {
                   swal(
           'Brilliant!',
-          'You conquered that question!',
+          'You just conquered that question!',
           'success'
         )
           } else {
