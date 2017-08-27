@@ -2,6 +2,21 @@ body {
   background-color: #606;
 }
 
+#nav .container-fluid {
+  background-color: #06f;
+}
+
+.navbar {min-height: 30px !important;}
+
+.nav.navbar-nav > li > a {
+  background-color: #06f;
+  padding-top: 5px;
+  font-size: 18px;
+  font-family: "Merriweather";
+  color: #000;
+  height: 30px;
+}
+
 .container-fluid {
   background-color: #606;
 }
