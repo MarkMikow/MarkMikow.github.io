@@ -30,6 +30,19 @@ h1 {
   font-weight: 500;
 }
 
+h2 {
+  margin-top: 0;
+  color: #ff0;
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 1em;
+  font-family: "Merriweather";
+  font-size: 3em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+}
+
 #sub-header {
   text-align: center;
   font-family: "Permanent Marker", cursive;
@@ -90,6 +103,10 @@ h1 {
   text-align: center;
   margin-top: 1em;
   margin-bottom: 1em;
+}
+
+#def {
+  margin-top: 1em;
 }
 
 .questionContainer {
