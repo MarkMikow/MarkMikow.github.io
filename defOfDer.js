@@ -54,17 +54,44 @@ function getQuestionB() {
   answersB[18] = "d";
   answersB[19] = "d";
 
+  var compliments = [
+    "Yay!",
+    "Good Job!",
+    "Rock the Kasbah!",
+    "Out of Sight!",
+    "Raise the Roof!",
+    "Do a Little Dance!",
+    "Well Done!",
+    "Way to Go!",
+    "Totally Awesome!",
+    "Super Duper, Wuper!",
+    "That's the Way, uh huh, uh huh \n We Like It!",
+    "Hip, Hip, Hooray!",
+    "Give Yourself a Pat on the Back \n (But don't strain a muscle!)",
+    "You Got the Skills!",
+    "Kudos!",
+    "Nice One!",
+    "Solid!",
+    "Thumbs Up!",
+    "Splendiferous!",
+    "Bring the Aloe Vera!",
+    "Beee-you-tee-full!",
+    "Woop! Woop!",
+    "Top Notch!",
+    "First Rate!",
+    "Absolutely Brilliant!"
+    ];
 
   randomNumberB = Math.floor(Math.random() * (questionsB.length));
+  var complimentNumber = Math.floor(Math.random() * (compliments.length));
   randomQuestionB = questionsB[randomNumberB];
 
   $(".B-question").html(randomQuestionB).width = "400";
 
-  if (randomQuestionB == questionsB[0]) {
-    document.getElementById("check-answerB").onclick = function funB() {              
-        if(document.getElementById("a").checked) {
+  document.getElementById("check-answerB").onclick = function funB() {              
+    if(document.getElementById(answersB[randomNumberB]).checked) {
                   swal(
-          'Yay!',
+          compliments[complimentNumber],
           'You conquered that question!',
           'success'
         )
@@ -74,275 +101,8 @@ function getQuestionB() {
       }
     }
 
-  if (randomQuestionB == questionsB[1]) {
-    document.getElementById("check-answerB").onclick = function funB() {              
-        if(document.getElementById("d").checked) {
-                  swal(
-          'Good job!',
-          'You clicked the button!',
-          'success'
-        )
-          } else {
-          alert("Not quite! \nGive it another try!");
-        }
-      }
-    }
-
-  if (randomQuestionB == questionsB[2]) {
-    document.getElementById("check-answerB").onclick = function funB() {              
-        if(document.getElementById("d").checked) {
-                  swal(
-          'Rock the Kasbah!',
-          'You clicked the button!',
-          'success'
-        )
-          } else {
-          alert("Not quite! \nGive it another try!");
-        }
-      }
-    }
-
-  if (randomQuestionB == questionsB[3]) {
-    document.getElementById("check-answerB").onclick = function funB() {              
-        if(document.getElementById("d").checked) {
-                  swal(
-          'Out of Sight!',
-          'You conquered that question!',
-          'success'
-        )
-          } else {
-          alert("Not quite! \nGive it another try!");
-        }
-      }
-    }
-
-    if (randomQuestionB == questionsB[4]) {
-    document.getElementById("check-answerB").onclick = function funB() {              
-        if(document.getElementById("b").checked) {
-                  swal(
-          'Raise the Roof!',
-          'You conquered that question!',
-          'success'
-        )
-          } else {
-          alert("Not quite! \nGive it another try!");
-        }
-      }
-    }
-
-  if (randomQuestionB == questionsB[5]) {
-    document.getElementById("check-answerB").onclick = function funB() {              
-        if(document.getElementById("b").checked) {
-                  swal(
-          'Do a Little Dance!',
-          'You conquered that question!',
-          'success'
-        )
-          } else {
-          alert("Not quite! \nGive it another try!");
-        }
-      }
-    }
-
-  if (randomQuestionB == questionsB[6]) {
-    document.getElementById("check-answerB").onclick = function funB() {              
-        if(document.getElementById("d").checked) {
-                  swal(
-          'Jump for Joy!',
-          'You conquered that question!',
-          'success'
-        )
-          } else {
-          alert("Not quite! \nGive it another try!");
-        }
-      }
-    }
-
-  if (randomQuestionB == questionsB[7]) {
-    document.getElementById("check-answerB").onclick = function funB() {              
-        if(document.getElementById("c").checked) {
-                  swal(
-          'Way to Go!',
-          'You just conquered the heck out of that question!',
-          'success'
-        )
-          } else {
-          alert("Not quite! \nGive it another try!");
-        }
-      }
-    }
-
-  if (randomQuestionB == questionsB[8]) {
-    document.getElementById("check-answerB").onclick = function funB() {              
-        if(document.getElementById("c").checked) {
-                  swal(
-          'Way to Go!',
-          'You knocked it out of the ballpark!',
-          'success'
-        )
-          } else {
-          alert("Not quite! \nGive it another try!");
-        }
-      }
-    }
-
-  if (randomQuestionB == questionsB[9]) {
-    document.getElementById("check-answerB").onclick = function funB() {              
-        if(document.getElementById("c").checked) {
-                  swal(
-          'Super Duper, Wuper!',
-          'You conquered that question!',
-          'success'
-        )
-          } else {
-          alert("Not quite! \nGive it another try!");
-        }
-      }
-    }
-
-  if (randomQuestionB == questionsB[10]) {
-    document.getElementById("check-answerB").onclick = function funB() {              
-        if(document.getElementById("d").checked) {
-                  swal(
-          'That\'s the Way, uh huh, uh huh!',
-          'We Like It!',
-          'success'
-        )
-          } else {
-          alert("Not quite! \nGive it another try!");
-        }
-      }
-    }
-
-  if (randomQuestionB == questionsB[11]) {
-    document.getElementById("check-answerB").onclick = function funB() {              
-        if(document.getElementById("b").checked) {
-                  swal(
-          'Hip, Hip, Hooray!',
-          'You conquered that question!',
-          'success'
-        )
-          } else {
-          alert("Not quite! \nGive it another try!");
-        }
-      }
-    }
-
-  if (randomQuestionB == questionsB[12]) {
-    document.getElementById("check-answerB").onclick = function funB() {              
-        if(document.getElementById("d").checked) {
-                  swal(
-          'Give Yourself a Pat on the Back!',
-          '(But don\'t strain a muscle!)',
-          'success'
-        )
-          } else {
-          alert("Not quite! \nGive it another try!");
-        }
-      }
-    }
-
-  if (randomQuestionB == questionsB[13]) {
-    document.getElementById("check-answerB").onclick = function funB() {              
-        if(document.getElementById("a").checked) {
-                  swal(
-          'You Got the Skills!',
-          'You conquered that question!',
-          'success'
-        )
-          } else {
-          alert("Not quite! \nGive it another try!");
-        }
-      }
-    }
-
-  if (randomQuestionB == questionsB[14]) {
-    document.getElementById("check-answerB").onclick = function funB() {              
-        if(document.getElementById("b").checked) {
-                  swal(
-          'Kudos!',
-          'You conquered that question!',
-          'success'
-        )
-          } else {
-          alert("Not quite! \nGive it another try!");
-        }
-      }
-    }
-
-  if (randomQuestionB == questionsB[15]) {
-    document.getElementById("check-answerB").onclick = function funB() {              
-        if(document.getElementById("d").checked) {
-                  swal(
-          'Nice One!',
-          'You conquered that question!',
-          'success'
-        )
-          } else {
-          alert("Not quite! \nGive it another try!");
-        }
-      }
-    }
-
-  if (randomQuestionB == questionsB[16]) {
-    document.getElementById("check-answerB").onclick = function funB() {              
-        if(document.getElementById("c").checked) {
-                  swal(
-          'Solid!',
-          'You conquered that question!',
-          'success'
-        )
-          } else {
-          alert("Not quite! \nGive it another try!");
-        }
-      }
-    }
-
-  if (randomQuestionB == questionsB[17]) {
-    document.getElementById("check-answerB").onclick = function funB() {              
-        if(document.getElementById("c").checked) {
-                  swal(
-          'Thumbs Up!',
-          'You conquered that question!',
-          'success'
-        )
-          } else {
-          alert("Not quite! \nGive it another try!");
-        }
-      }
-    }
-
-  if (randomQuestionB == questionsB[18]) {
-    document.getElementById("check-answerB").onclick = function funB() {              
-        if(document.getElementById("d").checked) {
-                  swal(
-          'Splendiferous!',
-          'You conquered that question!',
-          'success'
-        )
-          } else {
-          alert("Not quite! \nGive it another try!");
-        }
-      }
-    }
-
-  if (randomQuestionB == questionsB[19]) {
-    document.getElementById("check-answerB").onclick = function funB() {              
-        if(document.getElementById("d").checked) {
-                  swal(
-          'Bring the Aloe Vera!',
-          'You just scorched that question!',
-          'success'
-        )
-          } else {
-          alert("Not quite! \nGive it another try!");
-        }
-      }
-    }
-
-  $("#newQuestionB").on("click", function() {
+    $("#newQuestionB").on("click", function() {
     $("input[name='answer']").prop("checked", false);    
     getQuestionB();   
   })
-  }
 });
