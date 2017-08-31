@@ -125,10 +125,10 @@ h2 {
 }
 
 .questionContainer {
-  min-height: 500px;
+  min-height: 300px;
   min-width: 300px;
   margin: 170px 7% 0 7%;
-  padding: 2em 0 0 1em;
+  padding: 1em 0 0 1em;
   border: 3px solid #000; 
   background-color: #fff; 
   border-radius: 10px;
