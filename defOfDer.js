@@ -51,7 +51,7 @@ function getQuestionB() {
   answersB[15] = "d";
   answersB[16] = "c";
   answersB[17] = "c";
-  answersB[18] = "d";
+  answersB[18] = "c";
   answersB[19] = "d";
 
   var compliments = [
