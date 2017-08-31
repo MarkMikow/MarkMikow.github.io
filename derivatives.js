@@ -13,7 +13,7 @@ function getQuestionC() {
   questionsC[2] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_250/v1504149907/C003_g7elk8.png' alt='C003'>";
   questionsC[3] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_150/v1504149906/C004_gnm5hm.png' alt='C004'>";
   questionsC[4] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_175/v1504149906/C005_mk80ga.png' alt='C005'>";
-  questionsC[5] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_275/v1504149907/C006_nxngml.png' alt='C006'>";
+  questionsC[5] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_325/v1504149907/C006_nxngml.png' alt='C006'>";
   questionsC[6] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_150/v1504149906/C007_slut0d.png' alt='C007'>";
   questionsC[7] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_175/v1504149906/C008_ulb7ua.png' alt='C008'>";
   questionsC[8] = "<img src='https://res.cloudinary.com/markm/image/upload/c_scale,h_150/v1504149906/C009_fjy5jj.png' alt='C009'>";
